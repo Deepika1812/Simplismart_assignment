@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>UI Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #2e6c80; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #4CAF50; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>UI Automation Test Report</h1>
+    <p><strong>Date:</strong> 2025-05-29</p>
+    <p><strong>Total tests:</strong> 4</p>
+    <p><strong>Passed:</strong> 4</p>
+    <p><strong>Failed:</strong> 0</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Test Case</th>
+                <th>Status</th>
+                <th>Duration (s)</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>test_valid_login</td>
+                <td class="pass">PASS</td>
+                <td>5.2</td>
+                <td>Login successful with valid credentials</td>
+            </tr>
+            <tr>
+                <td>test_create_new_repository</td>
+                <td class="pass">PASS</td>
+                <td>7.8</td>
+                <td>Repository created successfully</td>
+            </tr>
+            <tr>
+                <td>test_create_issue</td>
+                <td class="pass">PASS</td>
+                <td>6.1</td>
+                <td>Issue created and visible on issue list</td>
+            </tr>
+            <tr>
+                <td>test_create_pull_request</td>
+                <td class="pass">PASS</td>
+                <td>8.3</td>
+                <td>Pull request created and listed successfully</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
