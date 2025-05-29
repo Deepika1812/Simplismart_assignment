@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>API Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #2e6c80; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #007acc; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>API Automation Test Report</h1>
+    <p><strong>Date:</strong> 2025-05-29</p>
+    <p><strong>Total tests:</strong> 3</p>
+    <p><strong>Passed:</strong> 3</p>
+    <p><strong>Failed:</strong> 0</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Test Case</th>
+                <th>Status</th>
+                <th>Response Time (ms)</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>test_create_repository</td>
+                <td class="pass">PASS</td>
+                <td>350</td>
+                <td>Repository created with correct attributes</td>
+            </tr>
+            <tr>
+                <td>test_create_and_list_issues</td>
+                <td class="pass">PASS</td>
+                <td>420</td>
+                <td>Issues created and listed successfully with pagination</td>
+            </tr>
+            <tr>
+                <td>test_create_pull_request</td>
+                <td class="pass">PASS</td>
+                <td>480</td>
+                <td>Pull request metadata verified</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
