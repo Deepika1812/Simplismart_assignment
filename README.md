@@ -94,5 +94,5 @@ Manual test cases and detailed testing documentation can be found in:
 ## 🔑 Authentication for API Tests
 
 For API tests:
-- Use a GitHub **personal access token (PAT)** stored as an environment variable or in a config file (do **NOT** hardcode it).
+- Use a GitHub **personal access token (PAT)** stored as an environment variable or in a config file .
 - The token should have appropriate scopes for repository, issues, and pull request access.
