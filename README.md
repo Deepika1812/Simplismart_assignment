@@ -68,20 +68,6 @@ Open the generated HTML files in the `/reports` folder:
 
 ---
 
-## ⚙️ GitHub Actions (CI/CD)
-
-This repository includes a GitHub Actions workflow that:
-✅ Automatically runs tests on each push or pull request  
-✅ Generates test reports  
-✅ Provides status checks in the PR/commit view
-
-The workflow file is located at:
-```
-.github/workflows/ci.yml
-```
-
----
-
 ## 📝 Manual Test Cases
 
 Manual test cases and detailed testing documentation can be found in:
